@@ -163,6 +163,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CSharpScript.cs" />
     <Compile Include="Script.cs" />
     <Compile Include="VisualBasicScript.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

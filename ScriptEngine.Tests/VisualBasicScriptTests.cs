@@ -24,7 +24,7 @@ namespace ScriptEngine.Tests
         [Fact]
         public void Evaluate_MultipleSimpleArithmeticOperation_ResultsReturned()
         {
-            for (var i = 0; i < 100; i++)
+            for (var i = 0; i < 250; i++)
             {
                 var  code = $"Return {i} + {i}";
                 var result = VisualBasicScript.Evaluate<int>(code);
