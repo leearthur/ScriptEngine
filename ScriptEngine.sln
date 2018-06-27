@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27428.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScriptEngine", "ScriptEngine\ScriptEngine.csproj", "{F81F6AB5-2F5B-44A0-8D8B-751E63DA9B5F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScriptEngine.Tests", "ScriptEngine.Tests\ScriptEngine.Tests.csproj", "{7CB751C6-6AB9-4DB0-A64D-D1E70BAD5F9E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F81F6AB5-2F5B-44A0-8D8B-751E63DA9B5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F81F6AB5-2F5B-44A0-8D8B-751E63DA9B5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F81F6AB5-2F5B-44A0-8D8B-751E63DA9B5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CB751C6-6AB9-4DB0-A64D-D1E70BAD5F9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CB751C6-6AB9-4DB0-A64D-D1E70BAD5F9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CB751C6-6AB9-4DB0-A64D-D1E70BAD5F9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CB751C6-6AB9-4DB0-A64D-D1E70BAD5F9E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
